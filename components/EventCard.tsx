@@ -23,6 +23,7 @@ const EventCard = ({ title, image, slug, location, date, time }: Props) => {
       event_time: time,
     });
   };
+  console.log("hi --________ title", title);
 
   return (
     <Link href={`/events/${slug}`} id="event-card" onClick={handleClick}>
